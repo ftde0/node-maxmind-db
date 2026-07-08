@@ -38,3 +38,7 @@ MaxmindDBReader.prototype.getGeoDataSync = function getGeoDataSync(ipAddress) {
 MaxmindDBReader.prototype.getDatabaseMetadata = function getDatabaseMetadata() {
     return this.reader.getMetadata();
 };
+
+MaxmindDBReader.openCityDB = function() {
+    return MaxmindDBReader.openSync(__dirname + "/test/data/GeoLite2-City.mmdb")
+}
