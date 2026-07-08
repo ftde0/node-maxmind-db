@@ -1,6 +1,6 @@
 {
     "name": "maxmind-db-reader",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "This is the pure Node API for reading MaxMind DB files. MaxMind DB is a binary file format that stores data indexed by IP address subnets (IPv4 or IPv6).",
     "main": "./index.js",
     "contributors": [
@@ -19,7 +19,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/PaddeK/node-maxmind-db"
+        "url": "https://github.com/ftde0/node-maxmind-db"
     },
     "bin": {
         "mmdb-geoip": "./repl"
@@ -38,7 +38,7 @@
     "licenses": [
         {
             "type": "LGPL 2.1",
-            "url": "https://github.com/PaddeK/node-maxmind-db/blob/master/LICENSE"
+            "url": "https://github.com/ftde0/node-maxmind-db/blob/master/LICENSE"
         }
     ],
     "engine": {
